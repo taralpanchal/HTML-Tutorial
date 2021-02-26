@@ -1,20 +1,12 @@
 body {
   margin: 10px;
 }
-p::first-letter {
-  color: red;
+h1 {
+  color: dodgerblue;
 }
-p::first-line {
-  font-weight: bold;
+.highlight {
+  color: blue;
 }
-::selection {
-  background-color: blue;
-}
-p::before {
-  display: block;
-  content: "...";
-}
-p::after {
-  display: block;
-  content: "...";
+#product {
+  color: green;
 }
