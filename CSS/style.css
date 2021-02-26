@@ -1,12 +1,11 @@
 body {
   margin: 10px;
 }
-h1 {
-  color: dodgerblue;
+p {
+  color: pink;
+  border: 1px solid rebeccapurple;
 }
-.highlight {
-  color: blue;
-}
-#product {
-  color: green;
+strong {
+  color: initial;
+  border: inherit;
 }
