@@ -1,11 +1,8 @@
 body {
   margin: 10px;
 }
-p {
-  color: pink;
-  border: 1px solid rebeccapurple;
-}
-strong {
-  color: initial;
-  border: inherit;
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(140, 125, 16);
 }
