@@ -1,9 +1,26 @@
 body {
   margin: 10px;
 }
-a[href*="google"] {
+article :first-of-type {
+  font-size: 140%;
+  font-style: italic;
+}
+article :last-of-type {
+  font-size: 140%;
+  font-style: italic;
+}
+article :last-child {
+  font-size: 140%;
+  font-weight: bold;
+}
+ul li:nth-child(2n) {
+  color: lawngreen;
+}
+a:visited,
+a:link {
   color: red;
 }
-#product ~ p {
-  color: yellowgreen;
+a:hover,
+a:focus {
+  color: blue;
 }
