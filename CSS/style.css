@@ -1,26 +1,20 @@
 body {
   margin: 10px;
 }
-article :first-of-type {
-  font-size: 140%;
-  font-style: italic;
-}
-article :last-of-type {
-  font-size: 140%;
-  font-style: italic;
-}
-article :last-child {
-  font-size: 140%;
-  font-weight: bold;
-}
-ul li:nth-child(2n) {
-  color: lawngreen;
-}
-a:visited,
-a:link {
+p::first-letter {
   color: red;
 }
-a:hover,
-a:focus {
-  color: blue;
+p::first-line {
+  font-weight: bold;
+}
+::selection {
+  background-color: blue;
+}
+p::before {
+  display: block;
+  content: "...";
+}
+p::after {
+  display: block;
+  content: "...";
 }
