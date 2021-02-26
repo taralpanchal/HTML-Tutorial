@@ -4,5 +4,6 @@ body {
 .box {
   width: 200px;
   height: 200px;
-  background-color: rgb(140, 125, 16);
+  background: linear-gradient(blue, rgb(209, 45, 72));
+  background: radial-gradient(yellow, rgb(209, 45, 72));
 }
