@@ -2,9 +2,23 @@ body {
   margin: 10px;
 }
 .box {
-  width: 600px;
+  width: 200px;
   height: 200px;
   background: yellow;
-  border: 2px solid pink;
-  border-width: 50px 20px 30px 40px;
+}
+#b1 {
+  float: right;
+}
+/* a {
+  pointer-events: none; 
+} */
+#p1 {
+  height: 200px;
+  width: 500px;
+  /* overflow-y: scroll; */
+  scroll-behavior: smooth;
+}
+.column {
+  float: left;
+  width: 20%;
 }
