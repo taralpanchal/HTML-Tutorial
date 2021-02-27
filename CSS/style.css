@@ -1,9 +1,12 @@
+html {
+  font-size: 62.5%;
+}
 body {
-  margin: 10px;
+  /* margin: 10px; */
 }
 .box {
-  border: 3px solid gold;
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
+  width: 15rem;
+  height: 100vh;
+  background-color: gold;
+  border-top: 3px solid orchid;
 }
