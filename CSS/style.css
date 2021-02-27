@@ -1,12 +1,26 @@
-html {
-  font-size: 62.5%;
-}
 body {
-  /* margin: 10px; */
+  margin: 10px;
 }
+
 .box {
-  width: 15rem;
-  height: 100vh;
-  background-color: gold;
-  border-top: 3px solid orchid;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: 10px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+} /*
+.box-one {
+  background: gold;
 }
+.box-two {
+  background: tomato;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+}
+.box-three {
+  background: darkblue;
+  position: relative;
+} */
