@@ -2,25 +2,32 @@ body {
   margin: 10px;
 }
 .container {
-  border: 3px solid lightblue;
-  display: flex;
+  display: grid;
+  /* grid-template-rows: 100px 100px 100px;
+  grid-template-columns: repeat(2, 100px); */
+  /* grid-template: repeat(3, 100px) / 100px 30% 70%; */
+  grid-template: 100px auto 100px/ 20fr 80fr;
+  border: 3px solid lightgrey;
+  /* row-gap: 10px;
+  column-gap: 10px; */
 
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
+  /* justify-items: center;
+  align-items: center; */
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    ". footer";
+  gap: 10px;
+  height: 100vh;
 }
 .box {
-  /* flex-basis: 10rem; */
-  flex-grow: 2;
-  /* flex-shrink: 1; */
-  /* flex: 1 1 15rem; */
-  width: 5rem;
-  height: 5rem;
-  background: gold;
-  margin: 2rem;
+  background-color: gold;
 }
 .box-one {
-  flex-grow: 0;
-  /* align-self: flex; */
+  grid-column: 1 / span 2;
+  grid-area: "header";
+}
+.box-four {
+  grid-column: 2;
+  grid-area: "footer";
 }
