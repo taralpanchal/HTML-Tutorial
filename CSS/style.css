@@ -1,24 +1,23 @@
 body {
   margin: 10px;
-  border: gainsboro;
+}
+.tweet {
+  border: 3px solid violet;
 }
 
-.boxes {
-  border: 3px solid black;
-  position: relative;
+.tweet::after {
+  content: "";
+  display: block;
+  clear: both;
 }
-.box {
-  height: 5rem;
+.avtar {
+  float: left;
   width: 5rem;
-}
-.box-one {
-  background-color: blue;
-  position: absolute;
-  left: 5rem;
-}
-.box-two {
+  height: 5rem;
   background-color: gold;
 }
-.box-three {
-  background-color: hotpink;
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
 }
