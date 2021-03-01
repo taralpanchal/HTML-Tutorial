@@ -1,33 +1,6 @@
 body {
   margin: 10px;
 }
-.container {
-  display: grid;
-  /* grid-template-rows: 100px 100px 100px;
-  grid-template-columns: repeat(2, 100px); */
-  /* grid-template: repeat(3, 100px) / 100px 30% 70%; */
-  grid-template: 100px auto 100px/ 20fr 80fr;
-  border: 3px solid lightgrey;
-  /* row-gap: 10px;
-  column-gap: 10px; */
-
-  /* justify-items: center;
-  align-items: center; */
-  grid-template-areas:
-    "header header"
-    "sidebar main"
-    ". footer";
-  gap: 10px;
-  height: 100vh;
-}
-.box {
-  background-color: gold;
-}
-.box-one {
-  grid-column: 1 / span 2;
-  grid-area: "header";
-}
-.box-four {
-  grid-column: 2;
-  grid-area: "footer";
+.first {
+  display: none;
 }
