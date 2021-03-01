@@ -1,26 +1,24 @@
 body {
   margin: 10px;
+  border: gainsboro;
 }
 
+.boxes {
+  border: 3px solid black;
+  position: relative;
+}
 .box {
-  padding: 5px;
-  margin: 5px;
-  box-sizing: 10px;
-  float: left;
-  width: 100px;
-  height: 100px;
-  background-color: lightcoral;
-} /*
+  height: 5rem;
+  width: 5rem;
+}
 .box-one {
-  background: gold;
+  background-color: blue;
+  position: absolute;
+  left: 5rem;
 }
 .box-two {
-  background: tomato;
-  position: fixed;
-  top: 0;
-  z-index: 999999;
+  background-color: gold;
 }
 .box-three {
-  background: darkblue;
-  position: relative;
-} */
+  background-color: hotpink;
+}
