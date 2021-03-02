@@ -12,7 +12,7 @@ input[type="email"] {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 0.5rem 0.7rem;
-  transition: border-color 0.15s, box-shadow:0.15s;
+  transition: border-color 0.15s, box-shadow 0.15s;
 }
 input[type="text"]:focus,
 input[type="email"]:focus {
@@ -20,14 +20,13 @@ input[type="email"]:focus {
   outline: 0;
   box-shadow: 0 0 4px rgb(14, 41, 82);
 }
-button{
+button {
   background: royalblue;
-  color: #fff ;
-  border:0;
-  padding:0.5rem 0.7rem ;
+  color: #fff;
+  border: 0;
+  padding: 0.5rem 0.7rem;
   border-radius: 5px;
   outline: 0;
-
 }
 .form-group {
   margin-bottom: 1rem;
