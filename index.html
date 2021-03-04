@@ -27,25 +27,112 @@
 
   <body>
     <div class="container">
-      <div class="dropdown">
-        <button
-          type="button"
-          class="btn btn-info dropdown-toggle"
-          data-toggle="dropdown"
-        >
-          Java Bacis Concepts and Interview Points
-        </button>
-        <div class="dropdown-menu dropdown-menu-right">
-          <h4 class="dropdown-header">Java</h4>
-          <a href="#" class="dropdown-item active">Java Interface</a>
-          <a href="#" class="dropdown-item">Java Packeges</a>
-          <a href="#" class="dropdown-item">Other Java class</a>
-          <h4 class="dropdown-header">Advance Java</h4>
-          <a href="#" class="dropdown-item disabled">Servlets</a>
-          <a href="#" class="dropdown-item">JSP</a>
-          <a href="#" class="dropdown-item">Other Java class</a>
+      <h2>Student</h2>
+      <form action="new.html">
+        <div class="form-group">
+          <lable for="fname">First Name:</lable>
+          <input type="text" id="fname" class="form-control" name="firstname" />
         </div>
-      </div>
+        <div class="form-group">
+          <lable for="lname">Last Name</lable>
+          <input type="text" id="lname" class="form-control" name="lastname" />
+        </div>
+        <div class="form-group">
+          <lable for="pass">Password</lable>
+          <input
+            type="password"
+            id="pass"
+            class="form-control"
+            name="password"
+          />
+        </div>
+        <div class="form-check">
+          <lable class="form-check-lable" for="ch1">
+            <input
+              type="checkbox"
+              id="ch1"
+              class="form-check-input"
+              name="opt1"
+              value="BCA"
+            />
+            BCA
+          </lable>
+        </div>
+        <div class="form-check">
+          <lable class="form-check-lable" for="ch2">
+            <input
+              type="checkbox"
+              id="ch2"
+              class="form-check-input"
+              name="opt2"
+              value="MCA"
+            />
+            MCA
+          </lable>
+        </div>
+        <br />
+        <div class="form-check">
+          <lable class="form-check-lable" for="rd1">
+            <input
+              type="radio"
+              id="rd1"
+              class="form-check-input"
+              name="opt2"
+              value="male"
+            />
+            Male
+          </lable>
+        </div>
+        <div class="form-check">
+          <lable class="form-check-lable" for="rd2">
+            <input
+              type="radio"
+              id="rd2"
+              class="form-check-input"
+              name="opt2"
+              value="female"
+            />
+            Female
+          </lable>
+        </div>
+        <br />
+        <div class="form-group">
+          <lable for="work">Select Your Priority</lable>
+          <select id="eork" class="form-control">
+            <option>Work-From-Home</option>
+            <option>Contractual</option>
+            <option>Part-Time</option>
+            <option>Full-Time</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <lable for="address">Address</lable>
+          <textarea name="address" id="address" cols="100" rows="5"></textarea>
+        </div>
+        <div class="form-group">
+          <lable for="range">Expertise Level :</lable>
+          <input type="range" class="form-control-range" />
+        </div>
+
+        <div class="form-group">
+          <lable for="resume">Resume</lable>
+          <input type="file" class="form-control-file border" name="resume" />
+        </div>
+        <button class="btn btn-secondary" type="submit">Submit</button>
+      </form>
     </div>
+    <br /><br /><br />
+    <!-- <h2>Form</h2>
+      <form class="form-inline" action="new.html">
+        <div class="form-group">
+          <lable for="email">Username (Email Address):</lable>
+          <input type="email" id="email" class="form-control" />
+        </div>
+        <div class="form-group">
+          <lable for="pass">Password:</lable>
+          <input type="password" id="pass" class="form-control" />
+        </div>
+        <button class="btn btn-secondary" type="submit">Submit</button>
+      </form> -->
   </body>
 </html>
