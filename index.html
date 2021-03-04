@@ -16,57 +16,82 @@
     <div class="container">
       <h2>Demo</h2>
       <p>Languages:</p>
-      <ul class="nav">
+      <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a href="#" class="nav-link active">English</a>
+          <a href="#one" class="nav-link active" data-toggle="tab">English</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">French</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            href="#"
-            class="nav-link dropdown-toggle"
-            data-toggle="dropdown"
-            role="button"
-            aria-expanded="false"
-            >Hindi</a
-          >
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item">Lang1</a
-            ><a href="#" class="dropdown-item">Lang2</a
-            ><a href="#" class="dropdown-item">Lang3</a
-            ><a href="#" class="dropdown-item">Lang4</a>
-          </div>
+          <a href="#two" class="nav-link" data-toggle="tab">French</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Chiness</a>
+          <a href="#three" class="nav-link" data-toggle="tab">Hindi</a>
+        </li>
+        <li class="nav-item">
+          <a href="#four" class="nav-link" data-toggle="tab">Chiness</a>
         </li>
       </ul>
 
+      <div class="tab-content">
+        <div id="one" class="container tab-pane active">
+          <br />
+          <h3>English</h3>
+          <p>English Demo...</p>
+        </div>
+        <div id="two" class="container tab-pane">
+          <br />
+          <h3>French</h3>
+          <p>French Demo...</p>
+        </div>
+        <div id="three" class="container tab-pane">
+          <br />
+          <h3>Hindi</h3>
+          <p>Hindi Demo...</p>
+        </div>
+        <div id="four" class="container tab-pane">
+          <br />
+          <h3>Chiness</h3>
+          <p>Chiness Demo...</p>
+        </div>
+      </div>
+
       <p>Subject:</p>
-      <ul class="nav nav-pills nav-justfied">
+      <ul class="nav nav-pills">
         <li class="nav-item">
-          <a href="#" class="nav-link" active>Java</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
-            >C++</a
-          >
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item">Lang1</a
-            ><a href="#" class="dropdown-item">Lang2</a
-            ><a href="#" class="dropdown-item">Lang3</a
-            ><a href="#" class="dropdown-item">Lang4</a>
-          </div>
+          <a href="#java" data-toggle="pill" class="nav-link active">Java</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">C#</a>
+          <a href="#c++" data-toggle="pill" class="nav-link">C++</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">.NET</a>
+          <a href="#c#" data-toggle="pill" class="nav-link">C#</a>
+        </li>
+        <li class="nav-item">
+          <a href="#.net" data-toggle="pill" class="nav-link">.NET</a>
         </li>
       </ul>
+
+      <div class="tab-content">
+        <div id="java" class="container tab-pane active">
+          <br />
+          <h3>Java</h3>
+          <p>Java Demo...</p>
+        </div>
+        <div id="c++" class="container tab-pane">
+          <br />
+          <h3>C++</h3>
+          <p>C++ Demo...</p>
+        </div>
+        <div id="c#" class="container tab-pane">
+          <br />
+          <h3>C#</h3>
+          <p>C# Demo...</p>
+        </div>
+        <div id=".net" class="container tab-pane">
+          <br />
+          <h3>.NET</h3>
+          <p>.NET Demo...</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
