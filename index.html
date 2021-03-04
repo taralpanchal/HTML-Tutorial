@@ -14,33 +14,40 @@
 
   <body>
     <div class="container">
-      <img
-        src="images/mosh.jpg"
-        height="300px"
-        width="300px"
-        class="float-left"
-      />
-      <img
-        src="images/meal-cropped.jpg"
-        height="300px"
-        width="300px"
-        class="float-right"
-      />
-
-      <img src="images/mosh.jpg" height="300px" width="300px" class="rounded" />
-      <img
-        src="images/mosh.jpg"
-        height="300px"
-        width="300px"
-        class="rounded-circle"
-      />
-      <img
-        src="images/mosh.jpg"
-        height="300px"
-        width="300px"
-        class="img-thumbnail"
-      />
-      <img src="images/bg-sanfrancisco.jpg" class="img-fluid" />
+      <h2>demo</h2>
+      <a
+        href="#"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="First Tooltip"
+        >Hover me..</a
+      >
+      <a
+        href="#"
+        data-toggle="tooltip"
+        data-placement="right"
+        title="First Tooltip"
+        >Hover me..</a
+      >
+      <a
+        href="#"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        title="First Tooltip"
+        >Hover me..</a
+      >
+      <a
+        href="#"
+        data-toggle="tooltip"
+        data-placement="left"
+        title="First Tooltip"
+        >Hover me..</a
+      >
+      <script>
+        $(document).ready(function () {
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+      </script>
     </div>
   </body>
 </html>
