@@ -27,45 +27,35 @@
 
   <body>
     <div class="container">
-      <h2>Product</h2>
-      <p>Following Product</p>
-      <ul class="list-group">
-        <a
-          href=""
-          class="list-group-item list-group-item-action list-group-item-info"
-          >Heat Mep Tool</a
-        >
-        <a
-          href=""
-          class="list-group-item list-group-item-action list-group-item-danger"
-          >Image Editor</a
-        >
-        <a
-          href=""
-          class="list-group-item list-group-item-action list-group-item-warning"
-          >Keyboard</a
-        >
-        <a
-          href=""
-          class="list-group-item list-group-item-action list-group-item-dark"
-          >Code Formatter Tool</a
-        ><br />
+      <button
+        class="btn btn-info"
+        type="button"
+        data-toggle="modal"
+        data-target="#demomodal"
+      >
+        Warning
+      </button>
 
-        <h2>Without Link</h2>
-        <p>Following Product</p>
-        <li class="list-group-item list-group-item-secondary">Heat Mep Tool</li>
-        <li class="list-group-item list-group-item-danger">Image Editor</li>
-        <li class="list-group-item list-group-item-warning active">Keyboard</li>
-        <li class="list-group-item list-group-item-info">
-          Code Formatter Tool
-        </li>
-        <li class="list-group-item list-group-item-dark">
-          Code Formatter Tool
-        </li>
-        <li class="list-group-item list-group-item-light">
-          Code Formatter Tool
-        </li>
-      </ul>
+      <div id="demomodal" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Warning</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              Restar the system to avoid failed updates!
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-danger" type="button" data-dismiss="modal">
+                Update failed!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
