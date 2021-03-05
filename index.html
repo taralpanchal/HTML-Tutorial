@@ -27,35 +27,13 @@
 
   <body>
     <div class="container">
-      <button
-        class="btn btn-info"
-        type="button"
-        data-toggle="modal"
-        data-target="#demomodal"
-      >
-        Warning
-      </button>
+      <picture>
+        <source srcset="images/meal.jpg" media="(min-width: 1200px)" />
+        <source srcset="images/bg-paper.jpg" media="(min-width: 1000px)" />
+        <source srcset="images/meal.jpg" media="(min-width: 800px)" />
 
-      <div id="demomodal" class="modal fade">
-        <div class="modal-dialog modal-dialog-centered modal-sm">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Warning</h4>
-              <button type="button" class="close" data-dismiss="modal">
-                &times;
-              </button>
-            </div>
-            <div class="modal-body">
-              Restar the system to avoid failed updates!
-            </div>
-            <div class="modal-footer">
-              <button class="btn btn-danger" type="button" data-dismiss="modal">
-                Update failed!
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+        <img src="images/mosh.jpg" alt="" />
+      </picture>
     </div>
   </body>
 </html>
